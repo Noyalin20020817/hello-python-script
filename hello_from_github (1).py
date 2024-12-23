@@ -9,4 +9,4 @@ if response.status_code == 200:
     print("Fetched script content:\n", script_content)
 else:
     print("Failed to fetch the script. Status code:", response.status_code)
-pip install requests
+python fetch_script.py
