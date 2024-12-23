@@ -1,2 +1,2 @@
-# hello-python-scr# hello.py
+# hello-py
 print("Hello, World!")
