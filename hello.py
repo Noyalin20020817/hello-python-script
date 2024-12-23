@@ -16,3 +16,4 @@ with open("output.txt", "w") as file:
     file.write(python_code)
 
 print("output.txt file has been created.")
+python create_output.py
