@@ -1,10 +1,11 @@
-import requests
-
 print("Hello, World!")
 
 repository_link = "https://github.com/Noyalin20020817/hello-python-script"
 
 url = "https://raw.githubusercontent.com/Noyalin20020817/hello-python-script/main/hello.py"
+
+# Fetch the script content from the URL
+import requests
 response = requests.get(url)
 
 if response.status_code == 200:
